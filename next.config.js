@@ -14,9 +14,7 @@ const nextConfig = {
     ],
     formats: ['image/avif', 'image/webp'],
   },
-  experimental: {
-    optimizeCss: true,
-  },
+  experimental: {},
   modularizeImports: {
     'lucide-react': {
       transform: 'lucide-react/dist/esm/icons/{{ kebabCase member }}',
