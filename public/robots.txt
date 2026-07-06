@@ -1,0 +1,13 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Disallow: /admin/
+Disallow: /api/
+Disallow: /auth/
+Disallow: /checkout/
+Disallow: /account/
+Disallow: /cart/
+Disallow: /wishlist/
+Disallow: /orders/
+Allow: /
+
+Sitemap: https://example.com/sitemap.xml
