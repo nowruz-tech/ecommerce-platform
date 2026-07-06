@@ -1,7 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  output: 'standalone',
   typescript: {
     ignoreBuildErrors: true,
   },
@@ -22,11 +21,6 @@ const nextConfig = {
     formats: ['image/avif', 'image/webp'],
   },
   experimental: {},
-  modularizeImports: {
-    'lucide-react': {
-      transform: 'lucide-react/dist/esm/icons/{{ kebabCase member }}',
-    },
-  },
   headers: async () => [
     {
       source: '/api/:path*',
